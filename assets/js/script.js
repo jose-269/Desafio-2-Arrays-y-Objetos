@@ -37,15 +37,17 @@ let nuevaConsulta4 = {hora: '10:30',  especialista: 'ANTONIO LARENAS', paciente:
 let nuevaConsulta5 = {hora: '12:30',  especialista: 'MATIAS ARAVENA', paciente: 'SUSANA POBLETE',     rut: '14345656-6', prevision: 'FONASA'};
 
 traumatologia.push(nuevaConsulta1, nuevaConsulta2, nuevaConsulta3, nuevaConsulta4, nuevaConsulta5);
+// console.log(traumatologia);
 
 // 2 Eliminar primer y ultimo elemento de Radiologia
 radiologia.shift();
 radiologia.pop();
+// console.log(radiologia);
 
 // 3 Imprimir consultas de Dental separadas por un guión
 const consultaDental = dental.map(function(x){
     let fullDental = [x.hora,x.especialista,x.paciente,x.rut,x.prevision].join(" - ");
-    fullDental += "<br>"
+    fullDental += "<br><br>"
     return fullDental;
 });
 
