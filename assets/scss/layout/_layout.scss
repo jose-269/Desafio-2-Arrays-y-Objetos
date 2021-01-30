@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    align-items: center;
+    i {
+        font-size: $xxx-large;
+        padding-left: 3.5rem;
+        color: $white;
+    }
+    &__title {
+        padding: 1.3rem 0 1.3rem 2rem;
+    }
+}
+
+.title {
+    text-align: center;
+    font-weight: $regular;
+    font-size: $xx-large;
+    padding: 1.5rem 0;
+}
+
+.cantidadAtencion, .primeraUltima, .consultaD, .fullN, .nuevaD {
+    padding: 1rem 0 0 3.5rem;
+}
+
+.top {
+    padding-top: 2.5rem;
+}
+.bottom {
+    padding-bottom: 2.5rem;
+}
+

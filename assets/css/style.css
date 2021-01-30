@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Passion One", cursive;
+  font-weight: 400;
+  font-size: 3.4375rem;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 1.5625rem;
+}
+
+p, span {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.nav {
+  background-color: #15d897;
+}
+.nav__title {
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav i {
+  font-size: 3.4375rem;
+  padding-left: 3.5rem;
+  color: #fff;
+}
+.nav__title {
+  padding: 1.3rem 0 1.3rem 2rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5625rem;
+  padding: 1.5rem 0;
+}
+
+.cantidadAtencion, .primeraUltima, .consultaD, .fullN, .nuevaD {
+  padding: 1rem 0 0 3.5rem;
+}
+
+.top {
+  padding-top: 2.5rem;
+}
+
+.bottom {
+  padding-bottom: 2.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
